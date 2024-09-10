@@ -12,4 +12,3 @@ Belajar kelas Memulai Pemrograman dengan Python. (Progres 45%)
 Belajar kelas Memulai Pemrograman dengan Python. (Progres 50%)
 * Belajar cara membuat function di Python
 * Belajar logika perulangan di Python
-* Berikut Perbedaannya
