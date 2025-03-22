@@ -12,6 +12,8 @@ const login = async(data)=>{
 throw new Error("Something wrong")
 }
 
-
-
-module.exports={login}
+const register = async()=>{
+const {name, email, password} = data
+    return data
+}
+module.exports={login, register}

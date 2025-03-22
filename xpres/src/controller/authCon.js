@@ -9,13 +9,31 @@ const login = async(req, res)=>{
    
     res.status(200).json({
     data: result    
-    });
+    })
 }
 catch(error){
     res.status(400).json({
         data: "Something weomt"    
-        });
+        })
 } 
 }
 
-module.exports={login};
+const register = async (req,res)=>{
+    const regInput = req.body
+try{
+    const result = await authService.register(regInput);
+    res.status(200).json({
+    data: result
+})
+}
+catch(error){
+    res.status(400).json({
+        data: "Something wrong"    
+        })
+} 
+}
+
+
+
+
+module.exports={login, register};
